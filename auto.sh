@@ -7,6 +7,8 @@ APKTOOL_JAR_URL="https://github.com/iBotPeaches/Apktool/releases/download/v2.6.0
 # Baixe o apktool e apktool.jar
 sudo curl -o /usr/local/bin/apktool $APKTOOL_URL
 sudo curl -o /usr/local/bin/apktool.jar $APKTOOL_JAR_URL
+sudo apt install zipalign -y
+sudo apt-get install openjdk-11-jdk
 
 # Dê permissões de execução
 sudo chmod +x /usr/local/bin/apktool
